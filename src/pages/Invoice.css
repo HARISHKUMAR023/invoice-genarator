@@ -1,4 +1,28 @@
-/* src/Invoice.css */
+
+  .custom-button {
+   
+    /* padding: 50px 20px; */
+    /* background-color: #007bff; */
+    color: rgb(231, 19, 19);
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 2rem;
+    background:url("../assets/delfalt-logo.png");
+    /* width: 100px;
+    height: 400px; */
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 80px 40px;
+    
+  }
+  .custom-file-upload {
+    position: relative;
+    width: 100px;
+    height: 100px;
+  }
+
+
+/* src/Invoice.css
 .invoice-container {
     max-width: 800px;
     margin: 0 auto;
@@ -32,4 +56,4 @@
     padding: 10px 20px;
     margin-top: 10px;
   }
-  
+   */

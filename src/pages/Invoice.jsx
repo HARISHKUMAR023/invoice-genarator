@@ -113,13 +113,18 @@ const Invoice = () => {
     <div className="max-w-4xl mx-auto p-8 border border-gray-300 rounded-lg shadow-lg bg-white my-3">
       <div className="mb-8 flex justify-between items-center">
         <div>
-          <input
-            type="file"
-            accept="image/*"
-            onChange={handleLogoUpload}
-            className="w-full p-2  rounded mb-2"
-          />
-          {invoiceData.logo && <img src={invoiceData.logo} alt="Company Logo" className="h-16"/>}
+        <input
+        type="file"
+        accept="image/*"
+        onChange={handleLogoUpload}
+        id="fileInput"
+        style={{ opacity: 0, position: 'absolute', zIndex: -1 }}
+      />
+       <label htmlFor="fileInput" className="custom-button bg-gray-500 p-5 text-white">
+        Upload Logo
+      </label>
+      
+          {invoiceData.logo && <img src={invoiceData.logo} alt="Company Logo" className="h-16 mt-10"/>}
           <input
             type="text"
             name="companyName"
