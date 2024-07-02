@@ -1,8 +1,26 @@
-# React + Vite
+# Invoice Generator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a React-based invoice generator application that allows users to input invoice details and generate a PDF invoice. The application provides a real-time preview of the invoice as users input data.
+![alt text](image.png)
+## Features
 
-Currently, two official plugins are available:
+- Upload a company logo.
+- Input company and client information.
+- Add, update, and remove invoice items.
+- Calculate the total amount.
+- Real-time preview of the invoice.
+- Download the invoice as a PDF.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Technologies Used
+
+- React
+- @react-pdf/renderer
+- react-image-file-resizer
+
+## Installation
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/HARISHKUMAR023/invoice-genarator
+cd invoice-generator
