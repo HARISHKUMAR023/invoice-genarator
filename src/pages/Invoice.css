@@ -1,0 +1,35 @@
+/* src/Invoice.css */
+.invoice-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+  }
+  
+  .invoice-header input {
+    width: calc(33.33% - 10px);
+    margin: 5px;
+    padding: 10px;
+  }
+  
+  .invoice-items .invoice-item {
+    display: flex;
+    margin: 5px 0;
+  }
+  
+  .invoice-items .invoice-item input {
+    margin-right: 10px;
+    padding: 10px;
+  }
+  
+  .invoice-total {
+    text-align: right;
+    margin-top: 20px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    margin-top: 10px;
+  }
+  
