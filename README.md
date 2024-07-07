@@ -24,3 +24,15 @@ This is a React-based invoice generator application that allows users to input i
 ```bash
 git clone https://github.com/HARISHKUMAR023/invoice-genarator
 cd invoice-generator
+```
+2. Dependence install:
+   
+```bash
+npm install
+```
+3. Run the app:
+```bash
+npm run dev
+```
+## Thanks for contibution
+  Email: harishkumarsp023@gmail.com
